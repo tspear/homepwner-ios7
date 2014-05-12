@@ -16,7 +16,7 @@
 - (id)init
 {
     // Call superclass designated initialiser
-    self = [super initWithStyle:UITableViewStyleGrouped];
+    self = [super initWithStyle:UITableViewStylePlain];
     if (self) {
         UINavigationItem *n = [self navigationItem];
         [n setTitle:@"Homepwner"];

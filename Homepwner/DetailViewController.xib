@@ -20,39 +20,45 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4">
-                    <rect key="frame" x="20" y="27" width="46" height="21"/>
+                    <rect key="frame" x="20" y="102" width="46" height="21"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <constraints>
-                        <constraint firstAttribute="width" constant="46" id="23"/>
+                        <constraint firstAttribute="width" constant="46" id="KWO-m8-JU9"/>
                     </constraints>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Serial" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7">
-                    <rect key="frame" x="20" y="77" width="43" height="21"/>
+                    <rect key="frame" x="20" y="148" width="43" height="21"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Value" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="10">
-                    <rect key="frame" x="20" y="128" width="42" height="21"/>
+                    <rect key="frame" x="20" y="199" width="42" height="21"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="13">
-                    <rect key="frame" x="20" y="179" width="280" height="21"/>
+                    <rect key="frame" x="20" y="228" width="280" height="21"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="chY-R6-pDR"/>
+                    </constraints>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="19">
-                    <rect key="frame" x="74" y="27" width="226" height="30"/>
+                    <rect key="frame" x="74" y="98" width="226" height="30"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="kC4-vE-8fN"/>
+                    </constraints>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <textInputTraits key="textInputTraits"/>
                     <connections>
@@ -60,10 +66,11 @@
                     </connections>
                 </textField>
                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="25">
-                    <rect key="frame" x="74" y="73" width="122" height="30"/>
+                    <rect key="frame" x="74" y="144" width="122" height="30"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <constraints>
-                        <constraint firstAttribute="width" constant="122" id="78"/>
+                        <constraint firstAttribute="width" constant="122" id="C9S-h4-zHE"/>
+                        <constraint firstAttribute="height" constant="30" id="Uge-Az-dza"/>
                     </constraints>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <textInputTraits key="textInputTraits"/>
@@ -72,8 +79,11 @@
                     </connections>
                 </textField>
                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="30">
-                    <rect key="frame" x="74" y="119" width="122" height="30"/>
+                    <rect key="frame" x="74" y="190" width="122" height="30"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="jeA-lt-uXt"/>
+                    </constraints>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                     <connections>
@@ -81,11 +91,8 @@
                     </connections>
                 </textField>
                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="60">
-                    <rect key="frame" x="20" y="208" width="280" height="280"/>
+                    <rect key="frame" x="20" y="257" width="280" height="255"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="280" id="75"/>
-                    </constraints>
                 </imageView>
                 <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="81">
                     <rect key="frame" x="0.0" y="524" width="320" height="44"/>
@@ -101,29 +108,30 @@
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
-                <constraint firstItem="4" firstAttribute="top" secondItem="1" secondAttribute="top" constant="27" id="5"/>
-                <constraint firstItem="4" firstAttribute="leading" secondItem="1" secondAttribute="leading" constant="20" symbolic="YES" id="6"/>
-                <constraint firstItem="7" firstAttribute="top" secondItem="1" secondAttribute="top" constant="77" id="8"/>
-                <constraint firstItem="7" firstAttribute="leading" secondItem="1" secondAttribute="leading" constant="20" symbolic="YES" id="9"/>
-                <constraint firstItem="10" firstAttribute="leading" secondItem="1" secondAttribute="leading" constant="20" symbolic="YES" id="11"/>
-                <constraint firstItem="13" firstAttribute="top" secondItem="1" secondAttribute="top" constant="179" id="14"/>
-                <constraint firstItem="13" firstAttribute="leading" secondItem="1" secondAttribute="leading" constant="20" symbolic="YES" id="16"/>
-                <constraint firstAttribute="trailing" secondItem="13" secondAttribute="trailing" constant="20" symbolic="YES" id="18"/>
-                <constraint firstItem="19" firstAttribute="top" secondItem="4" secondAttribute="top" id="20"/>
-                <constraint firstItem="19" firstAttribute="leading" secondItem="4" secondAttribute="trailing" constant="8" symbolic="YES" id="21"/>
-                <constraint firstAttribute="trailing" secondItem="19" secondAttribute="trailing" constant="20" symbolic="YES" id="24"/>
-                <constraint firstItem="25" firstAttribute="leading" secondItem="19" secondAttribute="leading" id="26"/>
-                <constraint firstItem="25" firstAttribute="top" secondItem="1" secondAttribute="top" constant="73" id="27"/>
-                <constraint firstItem="30" firstAttribute="bottom" secondItem="10" secondAttribute="bottom" id="31"/>
-                <constraint firstItem="30" firstAttribute="top" secondItem="1" secondAttribute="top" constant="119" id="32"/>
-                <constraint firstItem="30" firstAttribute="leading" secondItem="25" secondAttribute="leading" id="35"/>
-                <constraint firstAttribute="trailing" secondItem="60" secondAttribute="trailing" constant="20" symbolic="YES" id="71"/>
-                <constraint firstItem="60" firstAttribute="leading" secondItem="1" secondAttribute="leading" constant="20" symbolic="YES" id="74"/>
-                <constraint firstItem="30" firstAttribute="trailing" secondItem="25" secondAttribute="trailing" id="79"/>
-                <constraint firstItem="81" firstAttribute="trailing" secondItem="1" secondAttribute="trailing" id="83"/>
-                <constraint firstItem="81" firstAttribute="leading" secondItem="1" secondAttribute="leading" id="84"/>
-                <constraint firstItem="81" firstAttribute="bottom" secondItem="1" secondAttribute="bottom" id="85"/>
-                <constraint firstItem="60" firstAttribute="top" secondItem="13" secondAttribute="bottom" constant="8" symbolic="YES" id="86"/>
+                <constraint firstItem="60" firstAttribute="leading" secondItem="13" secondAttribute="leading" id="01b-jw-rqk"/>
+                <constraint firstItem="4" firstAttribute="leading" secondItem="1" secondAttribute="leading" constant="20" symbolic="YES" id="2Sn-Fg-Tx4"/>
+                <constraint firstItem="4" firstAttribute="leading" secondItem="7" secondAttribute="leading" id="4mi-N9-iok"/>
+                <constraint firstItem="19" firstAttribute="leading" secondItem="4" secondAttribute="trailing" constant="8" symbolic="YES" id="Cez-kU-W3H"/>
+                <constraint firstItem="60" firstAttribute="top" secondItem="13" secondAttribute="bottom" constant="8" symbolic="YES" id="Dho-1I-kZG"/>
+                <constraint firstItem="13" firstAttribute="top" secondItem="30" secondAttribute="bottom" constant="8" symbolic="YES" id="L3x-f2-myV"/>
+                <constraint firstItem="30" firstAttribute="leading" secondItem="25" secondAttribute="leading" id="MJr-N5-zZd"/>
+                <constraint firstItem="13" firstAttribute="leading" secondItem="10" secondAttribute="leading" id="Ol8-E4-EUn"/>
+                <constraint firstAttribute="trailing" secondItem="19" secondAttribute="trailing" constant="20" symbolic="YES" id="Pf6-iW-eHb"/>
+                <constraint firstItem="81" firstAttribute="top" secondItem="60" secondAttribute="bottom" constant="12" id="Rgz-Bg-024"/>
+                <constraint firstItem="19" firstAttribute="top" secondItem="1" secondAttribute="top" constant="98" id="Ulc-AT-k5T"/>
+                <constraint firstAttribute="bottom" secondItem="81" secondAttribute="bottom" id="VYe-GR-1nU"/>
+                <constraint firstItem="10" firstAttribute="leading" secondItem="7" secondAttribute="leading" id="XdN-ro-6nY"/>
+                <constraint firstItem="30" firstAttribute="top" secondItem="25" secondAttribute="bottom" constant="16" id="Xz0-OV-C7G"/>
+                <constraint firstItem="13" firstAttribute="top" secondItem="10" secondAttribute="bottom" constant="8" symbolic="YES" id="dGV-EY-Bfn"/>
+                <constraint firstItem="13" firstAttribute="trailing" secondItem="19" secondAttribute="trailing" id="eDC-QL-xbl"/>
+                <constraint firstItem="25" firstAttribute="top" secondItem="19" secondAttribute="bottom" constant="16" id="fJn-vq-JSc"/>
+                <constraint firstItem="4" firstAttribute="top" secondItem="1" secondAttribute="top" constant="102" id="h6j-qi-0Pt"/>
+                <constraint firstItem="25" firstAttribute="leading" secondItem="19" secondAttribute="leading" id="pQY-cg-5Ok"/>
+                <constraint firstItem="30" firstAttribute="trailing" secondItem="25" secondAttribute="trailing" id="pu6-4U-GOM"/>
+                <constraint firstItem="7" firstAttribute="top" secondItem="4" secondAttribute="bottom" constant="25" id="qOF-Yv-gb0"/>
+                <constraint firstItem="60" firstAttribute="trailing" secondItem="13" secondAttribute="trailing" id="qX6-ys-FEg"/>
+                <constraint firstItem="60" firstAttribute="centerX" secondItem="81" secondAttribute="centerX" id="rju-fL-DOQ"/>
+                <constraint firstItem="81" firstAttribute="leading" secondItem="1" secondAttribute="leading" id="vBR-MT-Q1K"/>
             </constraints>
             <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
